@@ -1,0 +1,15 @@
+extends layout
+
+
+
+block content
+    div#settings
+        input(type="range", id="setGameSize", min=1, max=6)
+        span#rangeDisplay
+        br
+        button#startNewGame Zacznij nową grę
+    div#game
+    div#timer
+    script(src='/js/timerClass.js')
+    script(src='/js/game.js')
+    script(src='/js/form.js')

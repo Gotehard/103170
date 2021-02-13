@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+body {
+  margin: 0;
+  font-family: "PT Mono", monospace;
+}
+
+div#game {
+  margin: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2em;
+}
+div#game div {
+  box-sizing: border-box;
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 26px 35px;
+  margin: 5px;
+  cursor: pointer;
+}
+div#game div.select {
+  border: 4px red solid;
+  padding: 24px 33px;
+}
+div#game div.emptycard {
+  border: 0;
+  padding: 28px 37px;
+}
+div#settings {
+  margin: 10px;
+  border: black 2px solid;
+  max-width: 600px;
+}
+
+/*# sourceMappingURL=style.css.map */
